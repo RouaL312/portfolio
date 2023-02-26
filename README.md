@@ -1,5 +1,5 @@
 # portfolio
 ## start
-npm install \\
-yarn run build
-yarn run dev
+ - npm install <br>
+ - yarn run build <br>
+ - yarn run dev
