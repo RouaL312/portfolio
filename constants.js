@@ -141,7 +141,7 @@ export const WORK = [
       "- Development with JAVA on a solution that offers personal assistance services",
       "- Task tracking via JIRA and Mantis.",
       "- Agile Scrum methodology"
-    ].join('\n'),
+    ],
     url: "https://b2m-it.com/",
   },
   // {
