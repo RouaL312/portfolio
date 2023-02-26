@@ -1,0 +1,24 @@
+.top {
+  padding: 120px 0px 93px;
+  position: relative;
+  overflow-x: hidden;
+
+  .background {
+    position: absolute;
+    bottom: 0;
+    top:5 ;
+    background: url("/footer/bye.webp") no-repeat center 0;
+    width: 100%;
+    height: 205px;
+  }
+
+}
+
+@keyframes first {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
