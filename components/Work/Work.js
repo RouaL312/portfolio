@@ -39,67 +39,6 @@ const Work = ({ clientWidth }) => {
       scrub: 0,
     });
   }, [targetSection, isActive]);
-
-  const handleChange = (position) => {
-    const height = 0;
-    height = inputRef.current.offsetTop - 15;
-    checked[position] = true;
-    // switch (position) {
-    //   case 0:
-    //     height = inputRef.current.offsetTop - 115;
-    //     checked[position] = true;
-    //     break;
-    //   case 1:
-    //     height = inputRef.current.offsetTop - 55;
-    //     checked[position] = true;
-    //     break;
-    //   case 2:
-    //     height = inputRef.current.offsetTop;
-    //     checked[position] = true;
-    //     break;
-    //   default:
-    //     height = inputRef.current.offsetTop - 50;
-    // }
-
-    setGunStyle({
-      transform: "translateY(" + height + "px)",
-      visibility: "visible",
-    });
-    setIsActive(true);
-
-    checked[position] = false;
-
-    setTimeout(() => {
-      setMockupStyle({
-        transform: "translate3d(0, 0, 0) rotateX(-90deg)",
-        transition: "1s",
-      });
-      setMacTopStyle({
-        transform: "translate3d(0, 0, 0) rotateX(-90deg)",
-        transition: "1s",
-      });
-    }, 1500);
-
-    setTimeout(() => {
-      setIsActive(false);
-      macRef.current.scrollIntoView({
-        behavior: "smooth",
-      });
-      setGunStyle({
-        transform: "translateY(500px)",
-        visibility: "hidden",
-      });
-      setMockupStyle({
-        transform: "translate3d(0, 0, 0) rotateX(0deg)",
-        transition: "500ms",
-      });
-      setMacTopStyle({
-        transform: "translate3d(0, 0, 0) rotateX(0deg)",
-        transition: "500ms",
-      });
-    }, 3000);
-  };
-
   return (
     <section
       className="w-full relative select-none xs:mt-40 sm:mt-72 mb-20"
