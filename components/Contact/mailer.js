@@ -2,12 +2,11 @@ import emailjs from "@emailjs/browser";
 
 
 const mail = ({ name, email, message }) => {
-  console.log(process.env.SERVICE_ID)
   return emailjs.send(
-    process.env.SERVICE_ID,
-    process.env.TEMPLATE_ID,
+    "service_752pi9o",
+    "template_rt80c4h",
     { name, email, message },
-    process.env.USER_ID
+    "-I6TQziM-1vz_41vq"
   );
 };
 

@@ -14,9 +14,9 @@ module.exports = withPWA({
     domains: ["res.cloudinary.com"],
   },
     env: {
-      SERVICE_ID: process.env.SERVICE_ID,
-      TEMPLATE_ID: process.env.TEMPLATE_ID,
-      USER_ID:process.env.USER_ID,
+      SERVICE_ID: "service_752pi9o",
+      TEMPLATE_ID: "template_rt80c4h",
+      USER_ID:"-I6TQziM-1vz_41vq",
     },
 
   pwa: {
