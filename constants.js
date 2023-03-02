@@ -2,7 +2,7 @@ export const METADATA = {
   title: "Portfolio | Roua laadouz",
   description:
     "Roua laadouz is a Full Stack Developer from Tunisia.",
-  siteUrl: "https://Roualaadouz.com/",
+  siteUrl: "https://roualaadouz-portfolio.netlify.app/",
 };
 
 export const MENULINKS = [
