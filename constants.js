@@ -84,7 +84,7 @@ export const PROJECTS = [
     name: "Buy and Go: Object recognition for automated supermarket billing",
     image: "/projects/Objectdetection.webp",
     blurImage: "/projects/blur/Objectdetection-modified.webp",
-    description: "Our solution is based on the use of a camera associated with an image recognition technology based on artificial intelligence (AI) in order to identify the items present in the basket. The system would capture an image of the cart and the AI ​​would analyze that image to recognize the items and automatically add them to the customer's purchase. We may also use specific machine learning models, such as object detection, to identify items in the shopping cart with high accuracy. 🛒",
+    description: "Our solution is based on the use of a camera associated with an image recognition technology based on artificial intelligence (AI) in order to identify the items present in the basket 🛒 ",
     gradient: ["#F14658", "#DC2537"],
     url: "https://youtu.be/tMlghGvlIjE",
     tech: ["python", "Flask" , "postgre","Angular"],
