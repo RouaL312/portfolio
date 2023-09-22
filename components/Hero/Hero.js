@@ -103,7 +103,7 @@ const Hero = () => {
           { <Button 
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/roua-laadouz/details/featured/1635517308072/single-media-viewer/?profileId=ACoAACZ8nz0B1LjtciqooRcMoMIolsWg3U9jT0E"
+            href="https://www.linkedin.com/in/roua-laadouz/details/featured/1635540642162/single-media-viewer/?profileId=ACoAACZ8nz0B1LjtciqooRcMoMIolsWg3U9jT0E"
           >
             Resume
           </Button> }
