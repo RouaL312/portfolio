@@ -36,7 +36,7 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: roua.laadouz21@gmail.com",
+    url: "mailto: laadouzroua@gmail.com",
   },
   {
     name: "linkedin",
